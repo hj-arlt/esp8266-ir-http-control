@@ -26,5 +26,5 @@ A stable version of Arduino ESP8266 can be made with the following libraries and
 
 Schematic of Avisio URC-150 IR Blaster
 
-![Schematic](https://github.com/hj-arlt/smarthome/blob/master/urc-150.pdf)
+![Schematic](https://github.com/hj-arlt/esp8266-ir-http-control/blob/master/urc-150.pdf)
 
