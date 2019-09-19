@@ -43,8 +43,8 @@ const unsigned int captureBufSize = 150;  // Size of the IR capture buffer.
 
 // WEMOS users may need to adjust pins for compatability
 #if ESP32_01
-const int pinr1 = 2;           // Receiving pin
-const int pins1 = 0;           // Transmitting 1, only
+const int pinr1 = 0;           // Receiving pin, 100R to prog key, PullUp 1K
+const int pins1 = 2;           // Transmitting 1, pullup 1K, 8K2 to T1, LED
 #elif AVISIO_URC150
 const int pinr1 = 5;           // Receiving pin, HSPI_CLK, I2C_SCL, IR-TX
 const int pins1 = 14;          // Transmitting 1, only, connected to all LEDs
